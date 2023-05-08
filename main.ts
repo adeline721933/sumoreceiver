@@ -57,12 +57,12 @@ basic.forever(function () {
         action = "Z"
     } else if (action == "D") {
         comment.comment("Insert D-Button Action Between These Comments")
-        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 200)
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 225)
         comment.comment("Insert D-Button Action Between These Comments")
         action = "Z"
     } else if (action == "E") {
         comment.comment("Insert E-Button Action Between These Comments")
-        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 310)
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 325)
         comment.comment("Insert E-Button Action Between These Comments")
         action = "Z"
     } else if (action == "F") {
