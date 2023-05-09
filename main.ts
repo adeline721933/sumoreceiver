@@ -40,10 +40,12 @@ let Sonar = 0
 basic.forever(function () {
     if (action == "A") {
         comment.comment("Insert A-Button Action Between These Comments")
+        Sonar = 0
         comment.comment("Insert A-Button Action Between These Comments")
         action = "Z"
     } else if (action == "B") {
         comment.comment("Insert B-Button Action Between These Comments")
+        Sonar = 1
         comment.comment("Insert B-Button Action Between These Comments")
         action = "Z"
     } else if (action == "AB") {
@@ -52,22 +54,20 @@ basic.forever(function () {
         action = "Z"
     } else if (action == "C") {
         comment.comment("Insert C-Button Action Between These Comments")
-        Sonar = 1
         comment.comment("Insert C-Button Action Between These Comments")
         action = "Z"
     } else if (action == "D") {
         comment.comment("Insert D-Button Action Between These Comments")
-        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 225)
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 200)
         comment.comment("Insert D-Button Action Between These Comments")
         action = "Z"
     } else if (action == "E") {
         comment.comment("Insert E-Button Action Between These Comments")
-        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 325)
+        wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, 310)
         comment.comment("Insert E-Button Action Between These Comments")
         action = "Z"
     } else if (action == "F") {
         comment.comment("Insert F-Button Action Between These Comments")
-        Sonar = 0
         comment.comment("Insert F-Button Action Between These Comments")
         action = "Z"
     } else {
@@ -89,10 +89,12 @@ basic.forever(function () {
     } else {
         if (action == "A") {
             comment.comment("Insert A-Button Action Between These Comments")
+            Sonar = 0
             comment.comment("Insert A-Button Action Between These Comments")
             action = "Z"
         } else if (action == "B") {
             comment.comment("Insert B-Button Action Between These Comments")
+            Sonar = 1
             comment.comment("Insert B-Button Action Between These Comments")
             action = "Z"
         } else if (action == "AB") {
@@ -101,7 +103,6 @@ basic.forever(function () {
             action = "Z"
         } else if (action == "C") {
             comment.comment("Insert C-Button Action Between These Comments")
-            Sonar = 1
             comment.comment("Insert C-Button Action Between These Comments")
             action = "Z"
         } else if (action == "D") {
@@ -116,7 +117,6 @@ basic.forever(function () {
             action = "Z"
         } else if (action == "F") {
             comment.comment("Insert F-Button Action Between These Comments")
-            Sonar = 0
             comment.comment("Insert F-Button Action Between These Comments")
             action = "Z"
         } else {
